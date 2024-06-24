@@ -1,10 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 const brand = process.env.BRAND || 'allwell'
+import { resolve } from 'path'
 
 export default defineNuxtConfig({
   srcDir: `brand_${brand}`,
   alias: {
     '@common': '../common',
+    'images': resolve(__dirname, `brand_${brand}/assets`),
   },
   dir: {
     layouts: '../common/layouts'

@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    // Include all relevant files from both brand-specific and common directories
     `./brand_${process.env.BRAND || 'allwell'}/components/**/*.{vue,js,ts}`,
     `./brand_${process.env.BRAND || 'allwell'}/layouts/**/*.vue`,
     `./brand_${process.env.BRAND || 'allwell'}/pages/**/*.vue`,

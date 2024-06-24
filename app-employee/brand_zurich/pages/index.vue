@@ -1,5 +1,6 @@
 <template>
     <div class="zurich-card">
+        <img src="~images/logo.svg" alt="Zurich Logo" class="logo" />
         <h1>Zurich Homepage</h1>
         <CommonComponent />
         <button class="zurich-button">Explore Services</button>
