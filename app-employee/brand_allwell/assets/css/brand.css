@@ -1,0 +1,44 @@
+/* Allwell CSS*/
+:root {
+    --allwell-primary: #4BB4E6;
+    --allwell-secondary: #005A8C;
+    --allwell-text: #333333;
+    --allwell-background: #F0F8FF;
+}
+
+body {
+    background-color: var(--allwell-background);
+    color: var(--allwell-text);
+}
+
+h1 {
+    color: var(--allwell-primary);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.allwell-button {
+    background-color: var(--allwell-primary);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.allwell-button:hover {
+    background-color: var(--allwell-secondary);
+}
+
+.allwell-link {
+    color: var(--allwell-primary);
+    text-decoration: underline;
+}
+
+.allwell-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-left: 4px solid var(--allwell-primary);
+}

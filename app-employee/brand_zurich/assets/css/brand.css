@@ -1,0 +1,44 @@
+/* Zurich CSS */
+:root {
+    --zurich-primary: #0066CC;
+    --zurich-secondary: #FF9900;
+    --zurich-text: #1A1A1A;
+    --zurich-background: #FFFFFF;
+}
+
+body {
+    background-color: var(--zurich-background);
+    color: var(--zurich-text);
+}
+
+h1 {
+    color: var(--zurich-primary);
+    font-size: 2.75rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.zurich-button {
+    background-color: var(--zurich-secondary);
+    color: var(--zurich-text);
+    padding: 0.75rem 1.5rem;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+}
+
+.zurich-button:hover {
+    background-color: var(--zurich-primary);
+    color: white;
+}
+
+.zurich-link {
+    color: var(--zurich-primary);
+    text-decoration: none;
+    border-bottom: 1px solid var(--zurich-primary);
+}
+
+.zurich-card {
+    background-color: #F0F0F0;
+    border-left: 4px solid var(--zurich-primary);
+    padding: 1.25rem;
+}
