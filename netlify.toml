@@ -1,0 +1,4 @@
+[build]
+base = "/app-employee"
+publish = "dist"
+command = "yarn run build"
